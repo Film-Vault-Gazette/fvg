@@ -124,7 +124,10 @@ h2 {
     max-width: 100%; /* Ensure container fills the entire width of the screen */
   }
 
-
+  .img-fluid {
+    width: 100% !important; /* Make images fill the whole width */
+    height: auto !important; /* Maintain aspect ratio */
+  }
 
   .artist-text {
     margin-left: 0; /* Remove left margin for artist text */
