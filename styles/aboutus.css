@@ -1,0 +1,133 @@
+:root {
+  --primary-color: rgb(0, 0, 0);
+  --primary-color-highlight: grey;
+  --bs-body-bg: #000000;
+  --bs-body-font-family: 'Inter', sans-serif;
+}
+
+body {
+  height: 1400px;  
+  padding-top: 70px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-brand {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  top: -7px;
+}
+
+.nav-link {
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  font-family: 'Monda', sans-serif;
+  margin-left: 15px;
+}
+
+.nav-link:hover {
+  color: rgb(118, 118, 118);
+}
+
+.navbar-light {
+  background-color: rgb(0, 0, 0) !important;
+  border: none !important;
+  border-width: 0 !important;
+}
+
+.navbar-toggler  {  
+  border: none;  
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.showcase {
+  padding-top: 100px;
+  padding-bottom: 160px;
+  background: rgb(0, 0, 0);
+  background: radial-gradient(circle, rgb(65, 65, 65) 0%, rgb(37, 37, 41) 38%, rgba(0,0,0,1) 80%);
+}
+
+.container-showcase {
+  margin-top: 10px;
+}
+
+.h1-about {
+  font-family: 'Chonburi', serif;
+  color: white;
+  font-size: 50px;
+}
+
+p {
+  font-family: 'Fira Mono', monospace;
+  font-size: 20px;
+}
+
+.footer-dark {
+  background-image: url('../assets/bg-image.jpg') !important;
+  background-color: whitesmoke;
+  border: none !important;
+  border-width: 0 !important;
+}
+
+h3 {
+  text-align: center;
+  color: black;
+  font-family: 'Chonburi', serif;
+  font-size: 30px;
+}
+
+.join {
+  text-align: center;
+}
+
+.p-join {
+  color: #000000;
+  font-family: 'Monda', sans-serif;
+}
+
+.insta-logo {
+  margin-bottom: 40px;
+}
+
+.insta-logo:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+.footer-text {
+  color:rgb(0, 0, 0);
+  padding-bottom: 5px;
+  font-family: 'Monda', sans-serif;
+  font-size: 17px;
+}
+
+.footer-text:hover {
+  color:rgb(118, 118, 118);
+  text-decoration: underline;
+}
+
+.fwg-logo {
+  width: 15%;
+  margin-bottom: 20px;
+}
+
+.copyright {
+  color:rgb(0, 0, 0);
+  text-align: center;
+  font-size: 15px;
+  margin-top: 70px;
+}

@@ -1,0 +1,209 @@
+:root {
+  --primary-color: rgb(0, 0, 0);
+  --primary-color-highlight: grey;
+  --bs-body-bg: #000000;
+  --bs-body-font-family: 'Inter', sans-serif;
+}
+
+body {
+  height: 2000px;  
+  padding-top: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-brand {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  top: -7px;
+}
+
+.nav-link {
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  font-family: 'Monda', sans-serif;
+  margin-left: 15px;
+}
+
+.nav-link:hover {
+  color: rgb(118, 118, 118);
+}
+
+.navbar-light {
+  background-color: rgb(0, 0, 0) !important;
+  border: none !important;
+  border-width: 0 !important;
+}
+
+.navbar-toggler  {  
+  border: none;  
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+p {
+  font-family: 'Monda', sans-serif;
+  font-size: 20px;
+}
+
+.h2-about {
+  font-family: 'Fira Mono', monospace;
+  font-size: 23px;
+  color: black;
+}
+
+.h2-showcase { 
+  padding-bottom: 50px;
+}
+
+.content { 
+  background: rgb(0, 0, 0);
+  margin-top: 50px;
+}
+
+h2 {
+  font-family: 'Chonburi', serif;
+  color: white;
+  font-size: 35px;
+  text-align: center;
+}
+
+.collection {
+  background: #000000;
+}
+
+.insta-white {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.icon {
+  margin-right: 5px;
+  width: 25px;
+}
+
+.icon2 {
+  margin-right: 5px;
+  width: 25px;
+  margin-left: 15px;
+}
+
+.artist-name {
+  font-family: 'Monda', sans-serif;
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+}
+
+.artist-name:hover {
+  color:rgb(188, 188, 188);
+  text-decoration: underline;
+}
+
+.artist-text {
+  margin-left: 20px;
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding-left: 12px;
+    padding-right: 12px; /* Remove padding from containers to allow full width */
+    max-width: 100%; /* Ensure container fills the entire width of the screen */
+  }
+
+  .img-fluid {
+    width: 100% !important; /* Make images fill the whole width */
+    height: auto !important; /* Maintain aspect ratio */
+  }
+
+  .artist-text {
+    margin-left: 0; /* Remove left margin for artist text */
+    text-align: center; /* Center align artist text on small screens */
+  }
+}
+
+.footer-dark {
+  background-image: url('../assets/bg-image.jpg') !important;
+  background-color: whitesmoke;
+  border: none !important;
+  border-width: 0 !important;
+}
+
+h4 {
+  text-align: center;
+  color: black;
+  font-family: 'Chonburi', serif;
+  font-size: 30px;
+}
+
+.join {
+  text-align: center;
+}
+
+.p-join {
+  color: #000000;
+}
+
+.insta-logo {
+  margin-bottom: 40px;
+}
+
+.insta-logo:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+.footer-text {
+  color:rgb(0, 0, 0);
+  padding-bottom: 5px;
+  font-family: 'Monda', sans-serif;
+  font-size: 17px;
+}
+
+.footer-text:hover {
+  color:rgb(118, 118, 118);
+  text-decoration: underline;
+}
+
+.fwg-logo {
+  width: 15%;
+  margin-bottom: 20px;
+}
+
+.copyright {
+  color:rgb(0, 0, 0);
+  text-align: center;
+  font-size: 15px;
+  margin-top: 70px;
+}
+
+#backToTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 10px;
+}
+
+#backToTopBtn:hover {
+  background-color: #838383;
+}
