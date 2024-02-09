@@ -1,7 +1,6 @@
 Welcome to the Film Vault Gazette repository! This website is dedicated to showcasing curated film photography collections every month. Whether you're a seasoned film photographer or just beginning your journey, this platform aims to inspire, educate, and celebrate the art of film photography.
 
 *Features*
-
 Monthly Curation: 
 Each month, a new collection of carefully selected film photographs will be featured on the website. These collections will highlight various themes, styles, and techniques in film photography.
 Artist Instagram Links: Explore the showcased collections and visit the artists' Instagram profiles to see more of their work.
@@ -11,16 +10,15 @@ Browsing Collections:
 Visit the website's homepage to explore the latest curated collection. Click on individual photographs to view them in full size.
 Artist Instagram Links: Beneath each photograph, you'll find a link to the artist's Instagram profile. Click on the link to discover more of their work and connect with them directly.
 
-Technologies Used:
+*Technologies Used*
 HTML5
 CSS3
 JavaScript
-Deployment
 
+*Deployment*
 This website is deployed using GitHub Pages. You can access it at: https://www.filmvaultgazette.com
 
 *License*
-
 This project is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0). You are free to:
 
 Share: 
